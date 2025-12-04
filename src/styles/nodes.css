@@ -1,0 +1,48 @@
+.node-card {
+  padding: 10px 12px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  min-width: 150px;
+  font-size: 11px;
+}
+
+.node-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.node-type {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+.node-body {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #4b5563;
+}
+
+.start-node {
+  border-left: 3px solid #2563eb;
+}
+
+.task-node {
+  border-left: 3px solid #f59e0b;
+}
+
+.approval-node {
+  border-left: 3px solid #8b5cf6;
+}
+
+.automated-node {
+  border-left: 3px solid #0ea5e9;
+}
+
+.end-node {
+  border-left: 3px solid #16a34a;
+}
